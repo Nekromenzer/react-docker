@@ -18,6 +18,10 @@ This is a simple React app that is containerized using Docker. The app is built 
 
 `docker run -p 5173:5173 react-docker`
 
+## with real-time updates
+
+`docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker`
+
 ## useful commands
 
 `docker ps` - list all running containers
