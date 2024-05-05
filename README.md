@@ -13,3 +13,15 @@ This is a simple React app that is containerized using Docker. The app is built 
 ## Run with Port Mapping
 
 `docker run -p 5173:5173 react-docker`
+
+## useful commands
+
+`docker ps` - list all running containers
+
+`docker ps -a` - list all containers
+
+`docker stop <container_id>` - stop a running container
+
+`docker rm <container_id>` - remove a container
+
+`docker images` - list all images
