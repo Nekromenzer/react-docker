@@ -2,6 +2,10 @@
 
 This is a simple React app that is containerized using Docker. The app is built using the create-react-app tool.
 
+## Install Docker
+
+[Install Docker](https://docs.docker.com/get-docker/)
+
 ## Build the Docker Image
 
 `docker build -t react-docker .`
